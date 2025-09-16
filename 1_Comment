@@ -1,0 +1,13 @@
+/**
+ * ini adalah
+ * contoh comment di Dart
+ */
+
+int multiply() {
+  return 5 * 5;
+}
+
+void main() { 
+  print("Dart is fun!");
+  print("5 * 5 = ${multiply()}");
+}
