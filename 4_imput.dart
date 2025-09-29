@@ -1,34 +1,29 @@
-import 'dart:ffi';
-import 'dart:io';
-import 'dart:js_interop'; // ini dinamakan package/library
+import 'dart:io'; // hanya butuh ini untuk I/O
 
 /**
-*Perbedaan print dan stout.write
-* print=> otomatis menambahkan baris baru
+* Perbedaan print dan stdout.write
+* print => otomatis menambahkan baris baru
 * stdout.write => tidak menambahkan baris baru
  */
 void main() {
-  stdout.write("masukan nama anda");
-  String fristName = stdin.readLineSync()!;
+  stdout.write("Masukan nama anda: ");
+  String firstName = stdin.readLineSync()!;
   /**
     * stdin.readLineSync() =>
-    * untuk mengambil imputan dari user
+    * untuk mengambil inputan dari user
     * dan mengembalikan nilai berupa string
     * tanda ! => null safety atau not
      */
-  stdout.write("masukan nama belakang");
-  String last_name = stdin.readLineSync()!;
-  print("Hello nama depanku $fristName dan nama belakangku $last_name");
+  stdout.write("Masukan nama belakang: ");
+  String lastName = stdin.readLineSync()!;
+  print("Hello nama depanku $firstName dan nama belakangku $lastName");
 
-  stdout.write("masukan umur anda");
+  stdout.write("Masukan umur anda: ");
   int age = int.parse(stdin.readLineSync()!);
-  // int age = int.parse(stdin.readLineSync() ! );
-  // as int dipakai unutuk konversi tipe data
-  // int.parse(readLineSync() ! ) juga bisa dipakai
-  // untuk keversi tipe data
 
   print("Hello aku berumur $age tahun");
 
-  stdout.write("Masukan tinggi badanmu");
-  Int(umurku = 14);
+  stdout.write("Masukan tinggi badanmu: ");
+  double height = double.parse(stdin.readLineSync()!);
+  print("Tinggi badanmu adalah $height cm");
 }
