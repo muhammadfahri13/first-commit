@@ -44,6 +44,53 @@ main() {
    * artinya kita tidak bisa menggubah berat badan ucup guerero secara langsung
    * akan tetapi kita bisa merubah melalui method pola makan
    */
+
+  /**
+   * 2.Abstraction
+   * Abstracksi juga bisa dibilang merupakan penerapan alami
+   * dari encapsulation
+   * Abstarksi berati sebuah object hanya menunjukan operasinya secara
+   * high-level
+   * 
+   * misalnya kita cukup tau bagaimana ucup guerero maka, namun kita
+   * tidak perlu tahu seperti apa metabolisme biologis
+   * dalam tubh ucup guerero yang membuat berat badanya bertambah
+   */
+
+
+  /**
+   * 3. Inheritance
+   * Inheritance beberapa objek bisa memiliki
+   * beberapa karakteristik atau perilaku yang sama
+   * 
+   * namau, bukanlah objek yang sama.
+   * 
+   * ex:Ucupguerero memiliki sifat dan perilaku yang umum 
+   * dengan manusia lainya.
+   * speerti memiliki, warna, berat, tiggi,dsb
+   * 
+   * maka dari itu ucup gurero adalah sebagai obejcet turunan 
+   * 
+   * (subclass) mewarisi sifat dan perilaku dari
+   * object induknya (superclass)
+   * 
+   * begitu juga dengan object Vladimir juga mewarisi sifat
+   * dan perilaku yang sama, namun Vladimir bisa berenang
+   * kalau ucup guerero tidak bisa berenang
+   */
+
+  /**
+   * 4.Polymorphism
+   * dalam bahasa Yunani berati "banyak bentuk"
+   * sederhana object dapat memiliki bentuk
+   * atau implemntasi yang berbeda beda pada suatu method
+   * yang sama.
+   * 
+   * Semua manusia bergerak, namun gerakan ucup guerero dan vlamindir memiliki
+   * cara gerak yang berbeda
+   * perbedaaan bentuk atau cara gerak tersebut merupakan contoh
+   * dari Polymorphism
+   */
 }
 var ucup = manusia('Kuning','hitam',72.0);
 
